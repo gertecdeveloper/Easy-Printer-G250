@@ -1,0 +1,649 @@
+object Form1: TForm1
+  Left = 75
+  Height = 874
+  Top = 87
+  Width = 1800
+  Caption = 'Form1'
+  ClientHeight = 874
+  ClientWidth = 1800
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object btnCutPaper: TButton
+    Left = 280
+    Height = 37
+    Top = 600
+    Width = 173
+    Caption = 'Cortar Papel'
+    OnClick = btnCutPaperClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnGetStatus: TButton
+    Left = 64
+    Height = 37
+    Top = 704
+    Width = 168
+    Caption = 'Status da Conexão'
+    OnClick = btnGetStatusClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 58
+    Height = 25
+    Top = 230
+    Width = 157
+    Caption = 'Texto para imprimir:'
+    ParentFont = False
+  end
+  object btnPrintText: TButton
+    Left = 58
+    Height = 37
+    Top = 600
+    Width = 173
+    Caption = 'Imprimir'
+    OnClick = btnPrint
+    ParentFont = False
+    TabOrder = 2
+  end
+  object mmoResultado: TMemo
+    Left = 58
+    Height = 317
+    Top = 269
+    Width = 558
+    Lines.Strings = (
+      'mmoResultado'
+    )
+    ParentFont = False
+    TabOrder = 3
+  end
+  object GroupBox1: TGroupBox
+    Left = 1184
+    Height = 277
+    Top = 256
+    Width = 520
+    Caption = 'QRCode'
+    ClientHeight = 247
+    ClientWidth = 516
+    ParentFont = False
+    TabOrder = 4
+    object Label3: TLabel
+      Left = 18
+      Height = 25
+      Top = 13
+      Width = 127
+      Caption = 'Texto a imprimir'
+      ParentFont = False
+    end
+    object edtQRCodeText: TEdit
+      Left = 173
+      Height = 33
+      Top = 4
+      Width = 317
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Label4: TLabel
+      Left = 19
+      Height = 25
+      Top = 65
+      Width = 171
+      Caption = 'Tamanho do QRCode'
+      ParentFont = False
+    end
+    object edtQRCodeSize: TEdit
+      Left = 211
+      Height = 33
+      Top = 58
+      Width = 120
+      NumbersOnly = True
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Label5: TLabel
+      Left = 19
+      Height = 25
+      Top = 119
+      Width = 140
+      Caption = 'Nível de Correção'
+      ParentFont = False
+    end
+    object cbCorrectionLevel: TComboBox
+      Left = 192
+      Height = 33
+      Top = 119
+      Width = 150
+      ItemHeight = 25
+      ParentFont = False
+      TabOrder = 2
+      Text = 'cbCorrectionLevel'
+    end
+    object btnPrintQRCode: TButton
+      Left = 29
+      Height = 37
+      Top = 182
+      Width = 172
+      Caption = 'Imprimir QRCode'
+      OnClick = btnPrintQRCodeClick
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Label16: TLabel
+      Left = 365
+      Height = 25
+      Top = 65
+      Width = 135
+      Caption = 'valores de 1 a 16'
+      ParentFont = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 643
+    Height = 368
+    Top = 240
+    Width = 508
+    Caption = 'Códigos de Barra'
+    ClientHeight = 338
+    ClientWidth = 504
+    ParentFont = False
+    TabOrder = 5
+    object Label6: TLabel
+      Left = 18
+      Height = 25
+      Top = 10
+      Width = 172
+      Caption = 'Código para Imprimir'
+      ParentFont = False
+    end
+    object edtCodeBarText: TEdit
+      Left = 221
+      Height = 33
+      Top = 0
+      Width = 269
+      ParentFont = False
+      TabOrder = 0
+    end
+    object cbCodeBarType: TComboBox
+      Left = 173
+      Height = 33
+      Top = 58
+      Width = 217
+      ItemHeight = 25
+      ParentFont = False
+      TabOrder = 1
+      Text = 'cbCodeBarType'
+    end
+    object Label1: TLabel
+      Left = 18
+      Height = 25
+      Top = 67
+      Width = 124
+      Caption = 'Tipo de Código'
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 19
+      Height = 25
+      Top = 125
+      Width = 47
+      Caption = 'Altura'
+      ParentFont = False
+    end
+    object edtCodeBarHeight: TEdit
+      Left = 115
+      Height = 33
+      Top = 115
+      Width = 120
+      NumbersOnly = True
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Label8: TLabel
+      Left = 19
+      Height = 25
+      Top = 173
+      Width = 59
+      Caption = 'Largura'
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 19
+      Height = 25
+      Top = 221
+      Width = 29
+      Caption = 'HRI'
+      ParentFont = False
+    end
+    object cbCodeBarHRI: TComboBox
+      Left = 115
+      Height = 33
+      Top = 216
+      Width = 150
+      ItemHeight = 25
+      ParentFont = False
+      TabOrder = 3
+      Text = 'cbCodeBarHRI'
+    end
+    object btnPrintCodeBar: TButton
+      Left = 29
+      Height = 37
+      Top = 277
+      Width = 227
+      Caption = 'Imprimir Código de Barras'
+      OnClick = btnPrintCodeBarClick
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Label15: TLabel
+      Left = 288
+      Height = 25
+      Top = 125
+      Width = 145
+      Caption = 'valores de 0 a 255'
+      ParentFont = False
+    end
+    object edtCodeBarWidth: TEdit
+      Left = 115
+      Height = 33
+      Top = 168
+      Width = 120
+      TabOrder = 5
+    end
+  end
+  object btnSendBinBuffer: TButton
+    Left = 60
+    Height = 37
+    Top = 960
+    Width = 199
+    Caption = 'Enviar Buffer Binário'
+    OnClick = btnSendBinBufferClick
+    ParentFont = False
+    TabOrder = 6
+    Visible = False
+  end
+  object Label10: TLabel
+    Left = 60
+    Height = 1
+    Top = 115
+    Width = 1
+    ParentFont = False
+  end
+  object GroupBox3: TGroupBox
+    Left = 48
+    Height = 202
+    Top = 19
+    Width = 1216
+    Caption = 'Configuração da Porta'
+    ClientHeight = 172
+    ClientWidth = 1212
+    ParentFont = False
+    TabOrder = 7
+    object RadioGroup1: TRadioGroup
+      Left = 10
+      Height = 67
+      Top = 0
+      Width = 1219
+      AutoFill = True
+      Caption = 'Tipo de conexão'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclTopToBottomThenLeftToRight
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 37
+      ClientWidth = 1215
+      ColumnLayout = clVerticalThenHorizontal
+      ParentFont = False
+      TabOrder = 0
+      object rbNetWorkConnection: TRadioButton
+        Left = 6
+        Height = 37
+        Top = 0
+        Width = 385
+        Caption = 'Via rede'
+        ParentFont = False
+        TabOrder = 0
+      end
+      object rbSerialConnection: TRadioButton
+        Left = 391
+        Height = 37
+        Top = 0
+        Width = 372
+        Caption = 'RS232'
+        Checked = True
+        ParentFont = False
+        TabOrder = 1
+        TabStop = True
+      end
+      object rbUSBConnection: TRadioButton
+        Left = 763
+        Height = 37
+        Top = 0
+        Width = 446
+        Caption = 'Impressora USB'
+        ParentFont = False
+        TabOrder = 2
+        Visible = False
+      end
+    end
+    object Label11: TLabel
+      Left = 17
+      Height = 25
+      Top = 92
+      Width = 15
+      Caption = 'IP'
+      ParentFont = False
+    end
+    object edtIPPrinter: TEdit
+      Left = 67
+      Height = 33
+      Top = 77
+      Width = 173
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Label12: TLabel
+      Left = 17
+      Height = 25
+      Top = 134
+      Width = 41
+      Caption = 'Porta'
+      ParentFont = False
+    end
+    object edtPortPrinter: TEdit
+      Left = 77
+      Height = 33
+      Top = 125
+      Width = 120
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Label13: TLabel
+      Left = 307
+      Height = 25
+      Top = 86
+      Width = 120
+      Caption = 'Nome da Porta'
+      ParentFont = False
+    end
+    object edtSerialPortName: TEdit
+      Left = 456
+      Height = 33
+      Top = 78
+      Width = 192
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Label17: TLabel
+      Left = 368
+      Height = 25
+      Top = 128
+      Width = 40
+      Caption = 'Baud'
+      ParentFont = False
+      Visible = False
+    end
+    object edtSerialBaud: TEdit
+      Left = 456
+      Height = 33
+      Top = 128
+      Width = 120
+      ParentFont = False
+      TabOrder = 4
+      Visible = False
+    end
+    object btnSaveConfig: TButton
+      Left = 995
+      Height = 38
+      Top = 77
+      Width = 197
+      Caption = 'Guardar Configuração'
+      OnClick = btnSaveConfigClick
+      TabOrder = 5
+    end
+    object btnLoadConfig: TButton
+      Left = 995
+      Height = 38
+      Top = 134
+      Width = 197
+      Caption = 'Ler Configuração'
+      OnClick = btnLoadConfigClick
+      TabOrder = 6
+    end
+  end
+  object cbUSBPrinters: TComboBox
+    Left = 832
+    Height = 33
+    Top = 136
+    Width = 150
+    ItemHeight = 25
+    ParentFont = False
+    TabOrder = 8
+    Text = 'cbUSBPrinters'
+    Visible = False
+  end
+  object btnStatusDrawer: TButton
+    Left = 64
+    Height = 37
+    Top = 800
+    Width = 168
+    Caption = 'Status da Gaveta'
+    OnClick = btnStatusDrawerClick
+    ParentFont = False
+    TabOrder = 9
+  end
+  object btnOpenDrawer: TButton
+    Left = 64
+    Height = 37
+    Top = 752
+    Width = 160
+    Caption = 'Abrir Gaveta'
+    OnClick = btnOpenDrawerClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button1: TButton
+    Left = 1584
+    Height = 38
+    Top = 512
+    Width = 168
+    Caption = 'Button1'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 11
+    Visible = False
+  end
+  object GroupBox4: TGroupBox
+    Left = 1300
+    Height = 206
+    Top = 24
+    Width = 649
+    Caption = 'Informções da Impressora'
+    ClientHeight = 176
+    ClientWidth = 645
+    TabOrder = 12
+    object Label14: TLabel
+      Left = 23
+      Height = 25
+      Top = 17
+      Width = 181
+      Caption = 'Modelo da Impressora'
+    end
+    object Label18: TLabel
+      Left = 23
+      Height = 25
+      Top = 58
+      Width = 72
+      Caption = 'Firmware'
+    end
+    object Label19: TLabel
+      Left = 23
+      Height = 25
+      Top = 96
+      Width = 133
+      Caption = 'Número de Série'
+    end
+    object edtPrinterModel: TEdit
+      Left = 250
+      Height = 33
+      Top = 10
+      Width = 120
+      Enabled = False
+      TabOrder = 0
+    end
+    object edtPrinterFirmware: TEdit
+      Left = 250
+      Height = 33
+      Top = 48
+      Width = 120
+      Enabled = False
+      TabOrder = 1
+    end
+    object edtSerialNumber: TEdit
+      Left = 250
+      Height = 33
+      Top = 88
+      Width = 202
+      Enabled = False
+      TabOrder = 2
+    end
+    object btnPrinterInformation: TButton
+      Left = 19
+      Height = 37
+      Top = 134
+      Width = 247
+      Caption = 'Carregar Informações'
+      OnClick = btnPrinterInformationClick
+      TabOrder = 3
+    end
+  end
+  object edtPrinterStatus: TEdit
+    Left = 72
+    Height = 33
+    Top = 664
+    Width = 376
+    Enabled = False
+    TabOrder = 13
+  end
+  object edtDrawerStatus: TEdit
+    Left = 280
+    Height = 33
+    Top = 800
+    Width = 173
+    Enabled = False
+    TabOrder = 14
+  end
+  object Panel1: TPanel
+    Left = 643
+    Height = 161
+    Top = 632
+    Width = 509
+    ClientHeight = 161
+    ClientWidth = 509
+    TabOrder = 15
+    object Label20: TLabel
+      Left = 16
+      Height = 25
+      Top = 8
+      Width = 129
+      Caption = 'Imprimir Bitmap'
+    end
+    object Label21: TLabel
+      Left = 19
+      Height = 25
+      Top = 60
+      Width = 80
+      Caption = 'Caminho: '
+    end
+    object edtBitMapPath: TEdit
+      Left = 112
+      Height = 33
+      Top = 56
+      Width = 376
+      TabOrder = 0
+    end
+    object btnPrintBitmap: TButton
+      Left = 23
+      Height = 38
+      Top = 112
+      Width = 169
+      Caption = 'Imprimir Bitmap'
+      OnClick = btnPrintBitmapClick
+      TabOrder = 1
+    end
+  end
+  object Panel2: TPanel
+    Left = 1184
+    Height = 224
+    Top = 568
+    Width = 384
+    ClientHeight = 224
+    ClientWidth = 384
+    TabOrder = 16
+    object Label22: TLabel
+      Left = 8
+      Height = 25
+      Top = 8
+      Width = 136
+      Caption = 'imprimir Coupon'
+    end
+    object Label23: TLabel
+      Left = 12
+      Height = 25
+      Top = 64
+      Width = 71
+      Caption = 'Caminho'
+    end
+    object edtXMLPath: TEdit
+      Left = 96
+      Height = 33
+      Top = 56
+      Width = 272
+      TabOrder = 0
+    end
+    object btnPrintXML: TButton
+      Left = 8
+      Height = 38
+      Top = 168
+      Width = 169
+      Caption = 'Impimir NFCe'
+      OnClick = btnPrintXMLClick
+      TabOrder = 1
+    end
+    object Button2: TButton
+      Left = 232
+      Height = 38
+      Top = 168
+      Width = 121
+      Caption = 'Imprimir SAT'
+      OnClick = Button2Click
+      TabOrder = 2
+    end
+    object Label24: TLabel
+      Left = 21
+      Height = 25
+      Top = 122
+      Width = 35
+      Caption = 'Tipo'
+    end
+    object edtCouponType: TEdit
+      Left = 95
+      Height = 33
+      Top = 116
+      Width = 120
+      TabOrder = 3
+      Text = '1'
+    end
+  end
+  object edtStatusOption: TEdit
+    Left = 256
+    Height = 33
+    Top = 712
+    Width = 40
+    TabOrder = 17
+    Text = '1'
+  end
+end

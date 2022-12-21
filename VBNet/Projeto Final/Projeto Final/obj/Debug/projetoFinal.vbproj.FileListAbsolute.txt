@@ -1,0 +1,27 @@
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\bin\Debug\projetoFinal.exe.config
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\bin\Debug\projetoFinal.exe
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\bin\Debug\projetoFinal.pdb
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\bin\Debug\projetoFinal.xml
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.AssemblyReference.cache
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.SuggestedBindingRedirects.cache
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.Resources.resources
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.GenerateResource.cache
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.CoreCompileInputs.cache
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.exe
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.xml
+C:\Users\glauc\source\repos\projetoFinal\projetoFinal\obj\Debug\projetoFinal.pdb
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\bin\Debug\projetoFinal.exe.config
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\bin\Debug\projetoFinal.exe
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\bin\Debug\projetoFinal.pdb
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\bin\Debug\projetoFinal.xml
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.AssemblyReference.cache
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.SuggestedBindingRedirects.cache
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.Resources.resources
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.GenerateResource.cache
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.CoreCompileInputs.cache
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.exe
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.xml
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.pdb
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\bin\Debug\System.Drawing.Common.dll
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\bin\Debug\System.Drawing.Common.xml
+C:\Users\hudca\source\repos\Funções Gertec VB.Net\projetoFinal\projetoFinal\obj\Debug\projetoFinal.vbproj.CopyComplete

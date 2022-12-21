@@ -1,0 +1,1 @@
+Para executar as funções, abrir o arquivo gertecEasyPrint.sln no Microsoft Visual Studio 2022 LTSC 17.0, no diretório Dependências e exemplos\gertecEasyPrint\gertecEasyPrint

@@ -1,0 +1,6 @@
+1. Adicionar a pasta g250 no DRIVE C:
+2. Arquivo GertecEasyPrint.ini (Função IniConfig) deve ficar na mesma pasta do Executável.
+3. Serial 100%.
+4. Ethernet 100%.
+5. USB com Pendências.
+

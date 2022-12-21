@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="43">
+      <Unit0>
+        <Filename Value="project1Synaser.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="gertecLazarus"/>
+        <EditorIndex Value="11"/>
+        <CursorPos X="71" Y="14"/>
+        <UsageCount Value="271"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <TopLine Value="597"/>
+        <CursorPos X="9" Y="608"/>
+        <UsageCount Value="271"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="serialprinter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GertecLazarus"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="271"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="gerteclazarus.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GertecLazarus"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="96"/>
+        <CursorPos X="20" Y="36"/>
+        <UsageCount Value="269"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="g250easyprinternetwork.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="G250EasyPrinterNetwork"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="234"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ssescposprintbitmap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ssESCPosPrintBitmap"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="2" Y="6"/>
+        <UsageCount Value="208"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="startdoor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StartDoor"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19"/>
+        <UsageCount Value="207"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="closethedoor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CloseTheDoor"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11"/>
+        <UsageCount Value="207"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="printText.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="20"/>
+        <CursorPos X="89" Y="78"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="closeDoor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="18"/>
+        <UsageCount Value="205"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="trigguillunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TrigGuillUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="8"/>
+        <UsageCount Value="202"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="returnstatusunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="returnStatusUnit"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="62" Y="8"/>
+        <UsageCount Value="202"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="printCustomBarCode.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="114"/>
+        <CursorPos X="50" Y="149"/>
+        <UsageCount Value="267"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="printQRCODE.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="36" Y="92"/>
+        <UsageCount Value="220"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="statusDrawer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="27"/>
+        <CursorPos X="47" Y="27"/>
+        <UsageCount Value="245"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="returnSerialNumber.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="30" Y="26"/>
+        <UsageCount Value="367"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="printcode28.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="printCODE28"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16"/>
+        <UsageCount Value="261"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="printCODE39.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="69" Y="8"/>
+        <UsageCount Value="260"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="printCODE93.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="8"/>
+        <UsageCount Value="260"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="printEAN13.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="8"/>
+        <UsageCount Value="260"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="printEAN8.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="8"/>
+        <UsageCount Value="251"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="printITF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="80" Y="20"/>
+        <UsageCount Value="251"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="printUPCA.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="8"/>
+        <UsageCount Value="251"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="printUPCE.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="8"/>
+        <UsageCount Value="251"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="openDrawer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="3" Y="31"/>
+        <UsageCount Value="330"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="sendBinBuffer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="28"/>
+        <CursorPos X="62" Y="51"/>
+        <UsageCount Value="329"/>
+        <Loaded Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="printBITMAP.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="69"/>
+        <CursorPos X="39" Y="82"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="returnmodel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="returnModel"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="35" Y="48"/>
+        <UsageCount Value="201"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="returnfirmware.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="returnFirmware"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="35" Y="48"/>
+        <UsageCount Value="201"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="iniConfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="44"/>
+        <UsageCount Value="290"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="printCouponNFCe.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="74"/>
+        <CursorPos X="81" Y="40"/>
+        <UsageCount Value="214"/>
+        <Loaded Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="412"/>
+        <CursorPos X="15" Y="420"/>
+        <UsageCount Value="94"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="trigGuill.pas"/>
+        <UnitName Value="TrigGuill"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="11"/>
+        <UsageCount Value="60"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="returnStatus.pas"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="90"/>
+        <CursorPos X="43" Y="48"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="openDoor.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="14"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="blcksock.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="427"/>
+        <CursorPos X="43" Y="434"/>
+        <UsageCount Value="36"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\win\wininc\struct.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="265"/>
+        <CursorPos X="6" Y="281"/>
+        <UsageCount Value="149"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="911"/>
+        <CursorPos X="14" Y="921"/>
+        <UsageCount Value="163"/>
+        <Loaded Value="True"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="C:\lazarus\lcl\include\picture.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="419"/>
+        <CursorPos X="18" Y="422"/>
+        <UsageCount Value="163"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\currh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="14" Y="22"/>
+        <UsageCount Value="88"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="C:\lazarus\lcl\include\graphic.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="185"/>
+        <CursorPos X="3" Y="240"/>
+        <UsageCount Value="102"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="912"/>
+        <CursorPos X="3" Y="933"/>
+        <UsageCount Value="70"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="printCouponSAT.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="22"/>
+        <CursorPos X="59" Y="35"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit42>
+    </Units>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="printcouponsat.pas"/>
+        <Caret Line="254" Column="116" TopLine="241"/>
+      </Position1>
+      <Position2>
+        <Filename Value="printcouponsat.pas"/>
+        <Caret Line="338" Column="51" TopLine="330"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="354" Column="45" TopLine="346"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="355" Column="45" TopLine="347"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="356" Column="45" TopLine="348"/>
+      </Position5>
+      <Position6>
+        <Filename Value="main.pas"/>
+        <Caret Line="539" Column="85" TopLine="523"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main.pas"/>
+        <Caret Line="220" Column="3" TopLine="212"/>
+      </Position7>
+      <Position8>
+        <Filename Value="main.pas"/>
+        <Caret Line="307" Column="5" TopLine="301"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="533" Column="5" TopLine="527"/>
+      </Position9>
+      <Position10>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="19" Column="15" TopLine="8"/>
+      </Position10>
+      <Position11>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="86" Column="19" TopLine="67"/>
+      </Position11>
+      <Position12>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="18" Column="34" TopLine="8"/>
+      </Position12>
+      <Position13>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="73" Column="36" TopLine="67"/>
+      </Position13>
+      <Position14>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="66" Column="51" TopLine="56"/>
+      </Position14>
+      <Position15>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="123" Column="40" TopLine="110"/>
+      </Position15>
+      <Position16>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="75" Column="3" TopLine="61"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="598" Column="74" TopLine="589"/>
+      </Position17>
+      <Position18>
+        <Filename Value="returnStatus.pas"/>
+        <Caret Line="32" Column="10" TopLine="22"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="599" Column="34" TopLine="589"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="600" Column="34" TopLine="520"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="606" Column="105" TopLine="590"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="608" Column="9" TopLine="597"/>
+      </Position22>
+      <Position23>
+        <Filename Value="printBITMAP.pas"/>
+        <Caret Line="65" Column="3" TopLine="65"/>
+      </Position23>
+      <Position24>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <Caret Line="1441" Column="3" TopLine="1437"/>
+      </Position24>
+      <Position25>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <Caret Line="1412" Column="3" TopLine="1411"/>
+      </Position25>
+      <Position26>
+        <Filename Value="printBITMAP.pas"/>
+        <Caret Line="70" Column="6" TopLine="59"/>
+      </Position26>
+      <Position27>
+        <Filename Value="printBITMAP.pas"/>
+        <Caret Line="83" Column="40" TopLine="68"/>
+      </Position27>
+      <Position28>
+        <Filename Value="openDoor.pas"/>
+        <Caret Line="27" TopLine="14"/>
+      </Position28>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
